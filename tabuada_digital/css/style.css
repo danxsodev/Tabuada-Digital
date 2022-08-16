@@ -1,0 +1,55 @@
+
+:root {
+    font-size: 62.5%; /*1rem = 10px*/
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #9550d6;
+    font-size: 1.6rem;
+    font-family: 'Poppins';
+}
+
+header {
+    margin-bottom: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.8rem;
+    color: #fffaf0;
+}
+
+main form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    border: 0.2rem solid #cccccc;
+    border-radius: 0.6rem;
+    color: #fffaf0;
+}
+
+input[type = text] {
+ width: 50%;
+}
+
+div.button {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 4rem;
+}
